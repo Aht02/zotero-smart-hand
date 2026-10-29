@@ -11,9 +11,9 @@ Zotero 10 PDF 阅读器的原生手型工具增强：开启手型工具后，悬
 2. 在 Zotero 中打开「工具 → 插件」，点右上角的齿轮，选择「从文件安装插件」，选中刚下载的文件。
 3. 在阅读器中开启原生手型工具。
 
-**与 [Zotero Blank Drag](https://github.com/Aht02/zotero-blank-drag) 功能重叠，请只启用其中一个**（前者作用于默认选择工具，本插件作用于手型工具）。
+**与 [Zotero Blank Drag](https://github.com/Aht02/zotero-blank-drag) 功能部分重叠，建议只启用其中一个**（前者作用于默认选择工具，本插件作用于手型工具）。
 
-安装后插件会通过本仓库的 [`updates.json`](updates.json) 检查更新。
+**更新请手动安装**：下载新版 XPI 覆盖安装即可，Zotero 会替换旧版并保留设置。本插件不推送自动更新——Zotero 10 要求插件清单必须带 HTTPS 更新地址（缺失会拒绝安装），所以仓库里仍有 `updates.json`，但其中只列当前版本，不会提示升级。
 
 ## 使用
 
@@ -61,7 +61,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build.ps1
 
 ## 版本
 
-- **1.0.0** —— 首个公开发布版（开发期编号 0.1.7）。补充 Firefox 系统事件组监听、原生滚动条识别及覆盖式滚动条的 16 CSS 像素边缘列兜底。
+- **1.0.0** —— 首个公开发布版。
 
 ## 许可证
 
