@@ -52,12 +52,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build.ps1
 
 本版已在 Zotero 10.0.6 上实机测试：悬停即 I 型、拖选与双击选词、空白处原生拖动、滚动条拖动与点击、切换工具、禁用插件后的清理。
 
-开发期另有两类记录，见 [`TESTING.md`](TESTING.md)：
-
-- Node 测试（19 项），含同一 XPI URI 升级的缓存回归测试；
-- 在隔离配置的 Zotero 10.0.6 进程中的无头集成测试（9 项）。
-
-`TESTING.md` 沿用开发期版本编号（0.1.x，对应首次公开发布的 1.0.0）。无头集成测试通过 `windowUtils` 注入鼠标事件，不等于物理鼠标或可见窗口的体验验证。
+开发期另有两类验证：19 项 Node 测试（含同一 XPI URI 升级的缓存回归），以及在隔离配置的 Zotero 10.0.6 进程中的 9 项无头集成测试。无头测试通过 `windowUtils` 注入鼠标事件，不等同于物理鼠标或可见窗口的体验验证。测试细节属于开发记录，不随仓库发布。
 
 ## 版本
 
