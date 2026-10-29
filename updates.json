@@ -1,0 +1,12 @@
+{
+  "addons": {
+    "smart-hand@aht02.github.io": {
+      "updates": [
+        {
+          "version": "1.0.0",
+          "update_link": "https://github.com/Aht02/zotero-smart-hand/releases/download/v1.0.0/zotero-smart-hand-1.0.0.xpi"
+        }
+      ]
+    }
+  }
+}
